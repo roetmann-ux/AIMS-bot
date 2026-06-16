@@ -1,0 +1,16 @@
+SubjectID,StoryID,MotiveSystem,Call1Total,Call2Total,Call3Total,Call4Total,Call5Total,Call6Total,Call7Total,Call8Total,Call9Total,MeanCallTotal,MedianCallTotal,ModeCallTotal,MajorityVoteSubcategoryProfile,FinalStoryScore,CallToCallStdDev,CallToCallRange,ConsensusRate,ValidCalls,FailedCalls
+P723,P723_PIC1,Ach,0,0,0,0,0,0,0,0,0,0,0,0,(none),0,0.0,0,1.0,9,0
+P723,P723_PIC3,Ach,5,5,5,5,5,5,5,5,5,5,5,5,AI+Need+Act+GA++TH,5,0.0,0,1.0,9,0
+P723,P723_PIC4,Ach,0,0,0,0,0,0,0,0,0,0,0,0,(none),0,0.0,0,1.0,9,0
+P723,P723_PIC5,Ach,0,0,0,0,0,0,0,0,0,0,0,0,(none),0,0.0,0,1.0,9,0
+P723,P723_PIC6,Ach,0,0,0,0,0,0,0,0,0,0,0,0,(none),0,0.0,0,1.0,9,0
+P723,P723_PIC1,Aff,6,6,6,6,6,6,6,6,6,6,6,6,AffIm+N+SA+Bw+F++TH,6,0.0,0,1.0,9,0
+P723,P723_PIC3,Aff,0,0,0,0,0,0,0,0,0,0,0,0,(none),0,0.0,0,1.0,9,0
+P723,P723_PIC4,Aff,0,0,0,0,0,0,0,0,0,0,0,0,(none),0,0.0,0,1.0,9,0
+P723,P723_PIC5,Aff,4,4,4,4,4,4,4,4,4,4,4,4,AffIm+Act+SA+F+,4,0.0,0,1.0,9,0
+P723,P723_PIC6,Aff,4,4,4,4,4,4,4,4,4,4,4,4,AffIm+SA+Bw+F+,4,0.0,0,1.0,9,0
+P723,P723_PIC1,Pow,0,0,0,0,0,0,0,0,0,0,0,0,(none),0,0.0,0,1.0,9,0
+P723,P723_PIC3,Pow,0,0,0,0,0,0,0,0,0,0,0,0,(none),0,0.0,0,1.0,9,0
+P723,P723_PIC4,Pow,0,0,0,0,0,0,0,0,0,0,0,0,(none),0,0.0,0,1.0,9,0
+P723,P723_PIC5,Pow,0,0,0,0,0,0,0,0,0,0,0,0,(none),0,0.0,0,1.0,9,0
+P723,P723_PIC6,Pow,0,0,0,0,0,0,0,0,0,0,0,0,(none),0,0.0,0,1.0,9,0

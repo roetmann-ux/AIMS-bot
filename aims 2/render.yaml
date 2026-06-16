@@ -1,0 +1,24 @@
+# One-click-ish deploy on Render (https://render.com). New > Blueprint > connect this repo.
+# Set the three "sync: false" secrets in the Render dashboard after it imports.
+services:
+  - type: web
+    name: aims
+    runtime: docker
+    plan: starter            # $7/mo, stays warm; single instance (keeps in-memory batch state)
+    numInstances: 1          # do NOT scale > 1 (scoring state is in-memory on one instance)
+    healthCheckPath: /healthz
+    envVars:
+      - key: AIMS_HOSTED
+        value: "1"
+      - key: AIMS_SECRET_KEY
+        generateValue: true            # signs the session cookie
+      - key: AIMS_ACCESS_PASSPHRASE
+        sync: false                    # the passphrase you share with trusted users
+      - key: DEEPSEEK_API_KEY
+        sync: false                    # your central key — powers live scoring
+      - key: OPENAI_API_KEY
+        sync: false                    # your central key — enables RAG
+      - key: AIMS_GLOBAL_CAP_USD
+        value: "25"                    # hard ceiling on total live spend
+      - key: AIMS_RATE_LIMIT_PER_HOUR
+        value: "8"

@@ -1,0 +1,52 @@
+AIMS — run the app on your laptop
+=================================
+
+This is a working prototype. It runs locally on YOUR computer — no account, no internet
+account needed. You can try everything in "Sample" mode with NO API keys (it uses bundled
+example data). Live AI scoring of your own text needs your own key (see Step 3).
+
+
+STEP 0 — Install Python 3  (one time, free, ~2 min — skip if you already have it)
+---------------------------------------------------------------------------------
+  • Windows: download from  https://www.python.org/downloads/
+             On the FIRST install screen, TICK the box  "Add Python to PATH".
+  • Mac:     often already installed. If the launcher in Step 2 says it's missing,
+             install from  https://www.python.org/downloads/
+
+
+STEP 1 — Unzip
+--------------
+  Unzip  aims-prototype.zip  anywhere (Desktop is fine). You'll get a folder named  aims .
+
+
+STEP 2 — Start it
+-----------------
+  • Windows: open the  aims  folder and double-click   start.bat
+  • Mac:     open the  aims  folder and double-click   start.command
+             (first time only: if macOS blocks it, RIGHT-click start.command > Open > Open)
+
+  The first launch takes 1-2 minutes to set itself up; after that it's instant.
+  Your web browser opens to   http://localhost:8765   — that's the app.
+
+  TO STOP later: just close the little Terminal / Command window that opened.
+
+
+STEP 3 — Try it
+---------------
+  No key needed:
+   • "Sample report (Pat Example)" and "Real data example" on the home page.
+   • "New evaluation" -> pick the  "Sample engine"  to score bundled stories instantly.
+
+  Live AI scoring of YOUR OWN text (optional):
+   • Open  "Settings"  and paste your OWN DeepSeek API key (from platform.deepseek.com).
+     Optionally add an OpenAI key to enable RAG. Click "Test DeepSeek connection".
+   • Keys are stored ONLY on your machine. This shared copy ships with NO keys — add your own.
+   • Then "New evaluation" -> "Live - DeepSeek" -> Score & build report.
+
+
+Troubleshooting
+---------------
+  • "Port 8765 is already in use" -> it's already running; just open  http://localhost:8765
+  • Page won't load right after starting -> wait ~5 seconds and refresh.
+  • The PDF button asks to install something -> just use your browser's  Print > Save as PDF.
+  • Mac, double-click does nothing -> open Terminal and run:   cd <path>/aims    then   ./start.command
