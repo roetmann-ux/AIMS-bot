@@ -1,2 +1,0 @@
-SubjectID,StoryID,MotiveSystem,Call1Total,Call2Total,Call3Total,Call4Total,Call5Total,Call6Total,Call7Total,Call8Total,Call9Total,MeanCallTotal,MedianCallTotal,ModeCallTotal,MajorityVoteSubcategoryProfile,FinalStoryScore,CallToCallStdDev,CallToCallRange,ConsensusRate,ValidCalls,FailedCalls
-DEMO,DEMO_PIC1,Ach,5,4,3,5,3,3,5,0,0,3.11,3,5,AI+Need+Act+GA++F+,5,1.853,5,0.843,9,0
